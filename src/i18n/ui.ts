@@ -1,17 +1,17 @@
-export const languages: Record<'fr' | 'en', { name: string; flag: string }> = {
-  fr: { name: 'Français', flag: 'fr' },
+export const languages: Record<'br' | 'en', { name: string; flag: string }> = {
+  br: { name: 'Português', flag: 'br' },
   en: { name: 'English', flag: 'us' },
 } as const;
 
-export const defaultLanguage = 'fr';
+export const defaultLanguage = 'br';
 
 export type LanguageCode = keyof typeof languages;
 
 export const ui = {
-  fr: {
+  br: {
     projectsContent: {
       sampleProject: {
-        title: 'Exemple de Projet',
+        title: 'Exemplo de proeto',
         description: "Ceci est un projet d'exemple pour le template.",
         imageAltText: "Image placeholder pour le projet d'exemple",
         categoryText: 'Application Web',
@@ -77,10 +77,10 @@ export const ui = {
       rights: 'Tous droits réservés.',
     },
     homePage: {
-      pageTitle: 'Accueil |  Développeur FullStack',
+      pageTitle: 'Portfolio |  Desenvolvedor mobile',
       pageDescription:
-        "Bienvenue sur le portfolio de YOUR_NAME, développeur FullStack passionné par la création d'expériences web innovantes.",
-      heroGreeting: "Salut, c'est YOUR_NAME",
+        "Bem-vindo ao portfolio de Raphael Furini, desenvolvedor mobile passionné par la création d'expériences web innovantes.",
+      heroGreeting: 'Olá, sou Raphael Furini',
       heroSubtitlePart1: 'Développeur FullStack',
       heroSubtitlePart2: 'Passionné UI/UX',
       heroIntroduction: 'Ajouter une introduction ici.',
@@ -292,7 +292,7 @@ export const ui = {
       pageTitle: 'Home | YOUR_NAME - FullStack Developer',
       pageDescription:
         'Welcome to the portfolio of YOUR_NAME, a FullStack developer passionate about creating innovative web experiences.',
-      heroGreeting: "Hi, I'm YOUR_NAME",
+      heroGreeting: "Hi, I'm Raphael Furini",
       heroSubtitlePart1: 'Full Stack Developer',
       heroSubtitlePart2: 'UI/UX Enthusiast',
       heroIntroduction: 'Add an introduction here.',

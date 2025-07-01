@@ -26,7 +26,6 @@ Welcome! This is a feature-rich Astro template designed to help you kickstart yo
 ## 🚀 Getting Started
 
 1.  **Use this template:**
-
     - Click the "Use this template" button on GitHub to create your own repository.
     - Or, clone it directly:
       ```bash
@@ -62,7 +61,7 @@ Welcome! This is a feature-rich Astro template designed to help you kickstart yo
 1.  Navigate to `src/features/blog/content/`.
 2.  Add your articles in Markdown (`.md`) or MDX (`.mdx`) format:
     - For English posts: `src/features/blog/content/en/your-article-slug.mdx`
-    - For French posts: `src/features/blog/content/fr/votre-slug-article.mdx`
+    - For French posts: `src/features/blog/content/br/votre-slug-article.mdx`
 3.  Edit the frontmatter of each post (title, description, pubDate, tags, heroImage, etc.). See `example-post.mdx` for a reference.
 4.  Place your blog post images in `src/assets/blog/` or `public/` and update the `heroImage.url` path accordingly.
 
@@ -104,7 +103,7 @@ All commands are run from the root of the project (using `bun` by default):
 │   ├── features/             # Main feature modules
 │   │   └── blog/
 │   │       ├── components/   # Blog-specific components (e.g., InfoAlert)
-│   │       └── content/      # YOUR BLOG ARTICLES GO HERE (en/ and fr/ subfolders)
+│   │       └── content/      # YOUR BLOG ARTICLES GO HERE (en/ and br/ subfolders)
 │   │       ├── layouts/      # Layouts for blog pages
 │   │       └── ...           # Other blog-related files (types, screens)
 │   │
