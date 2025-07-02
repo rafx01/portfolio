@@ -13,6 +13,7 @@ import {
   Database,
   PenTool,
   Network,
+  Smartphone,
   type LucideIcon,
 } from 'lucide-react';
 import type { IconType } from 'react-icons';
@@ -43,6 +44,9 @@ import {
   SiKubernetes,
   SiGit,
   SiAmazon,
+SiExpo,
+SiReactquery,
+SiSentry
 } from 'react-icons/si';
 
 // Define the mapping from iconName to Lucide icon component
@@ -53,6 +57,7 @@ const iconComponents: Record<string, LucideIcon> = {
   Database,
   PenTool,
   Network,
+  Smartphone
 };
 
 // Mapping for react-icons (specific technologies)
@@ -83,6 +88,9 @@ const techIconComponents: Record<string, IconType> = {
   kubernetes: SiKubernetes,
   git: SiGit,
   amazonservices: SiAmazon,
+  expo: SiExpo,
+  query: SiReactquery,
+  sentry: SiSentry
 };
 
 import type { Technology } from '@/data/skills'; // Import the Technology type

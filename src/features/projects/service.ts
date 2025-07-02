@@ -174,8 +174,8 @@ export const skillsList: Array<SkillData> = [
     id: 'frontendDevelopment',
     iconName: 'MonitorSmartphone',
     technologies: [
-      { id: 'html', name: 'HTML' },
-      { id: 'css', name: 'CSS' },
+      { id: 'html5', name: 'HTML' },
+      { id: 'css3', name: 'CSS' },
       { id: 'javascript', name: 'JavaScript' },
       { id: 'typescript', name: 'TypeScript' },
     ],
@@ -185,15 +185,18 @@ export const skillsList: Array<SkillData> = [
     iconName: 'ServerCog',
     technologies: [
       { id: 'nodejs', name: 'Node.js' },
-      { id: 'restapi', name: 'REST APIs' },
+      { id: 'express', name: 'Express' },
+      { id: 'postgresql', name: 'PostgreSQL' },
     ],
   },
   {
-    id: 'uiUxDesign',
-    iconName: 'PenTool',
+    id: 'mobile',
+    iconName: 'Smartphone',
     technologies: [
-      { id: 'figma', name: 'Figma' },
-      { id: 'responsiveDesign', name: 'Responsive Design' },
+      { id: 'expo', name: 'Expo' },
+      { id: 'react', name: 'React Native' },
+      { id: 'query', name: 'React Query' },
+      { id: 'sentry', name: 'Sentry' },
     ],
   },
   {

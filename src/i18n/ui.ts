@@ -42,18 +42,19 @@ export const ui = {
     },
     skillsContent: {
       frontendDevelopment: {
-        title: 'Développement Frontend',
+        title: 'Desenvolvimento Frontend',
         description:
-          "Création d'interfaces utilisateur interactives et performantes.",
+          'Criação de interfaces robustas e interativas. Amplo conhecimento em React/React Native, TailwindCSS e outros.',
       },
       backendDevelopment: {
-        title: 'Développement Backend',
-        description: "Construction de logiques serveur robustes et d'API.",
-      },
-      uiUxDesign: {
-        title: 'Design UI/UX',
+        title: 'Desenvolvimento Backend',
         description:
-          "Conception d'expériences utilisateur intuitives et esthétiques.",
+          'Construção de rotas de API REST, GraphQL, NodeJS, Express etc.',
+      },
+      mobile: {
+        title: 'Desenvolvimento mobile',
+        description:
+          'Criação de um aplicativo por completo, desde a navegação até a publicação nas lojas de aplicativos. ',
       },
       devOps: {
         title: 'DevOps',
@@ -62,41 +63,41 @@ export const ui = {
       },
     },
     site: {
-      title: 'Mon Super Template',
+      title: 'Rafx',
       description:
         'Un template Astro moderne et performant pour démarrer votre projet.',
     },
     nav: {
-      home: 'Accueil',
+      home: 'Home',
       blog: 'Blog',
-      contact: 'Contact',
-      projects: 'Projets',
-      tips: 'Astuces',
+      contact: 'Contato',
+      projects: 'Projetos',
+      tips: 'Dicas',
     },
     footer: {
-      rights: 'Tous droits réservés.',
+      rights: 'Todos direitos reservados.',
     },
     homePage: {
-      pageTitle: 'Portfolio |  Desenvolvedor mobile',
+      pageTitle: 'Portfolio |  Raphael Furini',
       pageDescription:
         "Bem-vindo ao portfolio de Raphael Furini, desenvolvedor mobile passionné par la création d'expériences web innovantes.",
       heroGreeting: 'Olá, sou Raphael Furini',
-      heroSubtitlePart1: 'Développeur FullStack',
-      heroSubtitlePart2: 'Passionné UI/UX',
+      heroSubtitlePart1: 'Desenvolvedor mobile',
+      heroSubtitlePart2: 'Entusiasta de fullstack',
       heroIntroduction: 'Ajouter une introduction ici.',
-      heroViewWorkButton: 'Mes réalisations',
+      heroViewWorkButton: 'Meus projetos',
       heroContactButton: 'Me contacter',
       heroImageAlt:
         'Illustration représentant YOUR_NAME ou un concept de développement',
-      featuredProjectsTitle: '3 derniers projets',
+      featuredProjectsTitle: 'Alguns projetos...',
       featuredProjectsDescription:
-        "Voici quelques projets sur lesquels j'ai récemment travaillé. N'hésitez pas à les explorer !",
+        'Aqui estão alguns projetos que trabalhei recentemente, sinta-se livre para explorar!',
       projectCardViewProject: 'Voir le projet',
       projectCardViewCode: 'Voir le code',
       imageNotAvailable: 'Image bientôt disponible',
-      mySkillsTitle: 'Mes Compétences',
+      mySkillsTitle: 'Competências e habilidades',
       mySkillsDescription:
-        "Explorez l'expertise et les capacités qui définissent mon travail et ma passion.",
+        'Explore minhas habilidades e competências profissionais.',
     },
     blogPage: {
       pageTitle: 'Mon Blog Technique',
@@ -264,7 +265,7 @@ export const ui = {
         title: 'Backend Development',
         description: 'Constructing robust server logic and APIs.',
       },
-      uiUxDesign: {
+      mobile: {
         title: 'UI/UX Design',
         description: 'Designing intuitive and aesthetic user experiences.',
       },
