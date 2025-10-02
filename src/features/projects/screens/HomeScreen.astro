@@ -5,7 +5,7 @@ import { buttonVariants } from '@/components/ui/button';
 import type { LanguageCode } from '@/i18n/ui';
 import { getRelativeLocaleUrl } from 'astro:i18n';
 import { Calendar, Dumbbell } from 'lucide-react';
-
+import { SiGithub, SiDiscord, SiLinkedin } from "react-icons/si";
 import heroImage from '@/assets/user-hero.webp';
 import { Image } from 'astro:assets';
 import FeaturedProjectPreview from '../components/FeaturedProjectPreview.astro';
@@ -62,9 +62,12 @@ const {
         <span class="text-primary"> | </span>
         <span>{heroSubtitlePart2}</span>
       </p>
-      <p class="text-lg text-muted-foreground mb-8">
-        <a href="www.github.com">github discord linkedin</a>
-      </p>
+      <div class=" flex flex-row space-x-4 mb-4">
+        <a href="https://github.com/rafx01"><SiGithub size={20}/></a>
+        <a href="https://github.com/rafx01"><SiDiscord size={20}/></a>
+        <a href="https://github.com/rafx01"><SiLinkedin size={20}/></a>
+
+      </div>
       
       <div
         class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start"

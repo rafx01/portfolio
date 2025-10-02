@@ -10,7 +10,35 @@ import type {
 
 const projectsListUnsorted: Array<ProjectData> = [
   {
-    id: 'sampleProject', // Unique identifier for translations
+    id: 'comigo', // Unique identifier for translations
+    slug: 'sample-project', // Used in the URL
+    imageUrl: placeholderImage, // Use imported ImageMetadata
+    projectUrl: '#', // Optional: Link to the live project
+    // codeUrl: '#', // Optional: Link to the source code
+    tags: ['Astro', 'TypeScript', 'Template'], // Generic tags
+    category: 'Web Application', // Generic category
+    date: '2025-01-01', // Generic date
+    galleryImages: [
+      // Optional: Gallery images for the project
+      // {
+      //   id: 'sampleGalleryImage1',
+      //   src: placeholderImage, // Placeholder, needs ImageMetadata
+      // },
+    ],
+    keyFeatures: [
+      // Key features (IDs for translation)
+      { id: 'responsiveDesign' },
+      { id: 'contentManagement' },
+    ],
+    technologiesUsed: [
+      // Technologies used (IDs for display)
+      { id: 'astro', name: 'Astro' },
+      { id: 'typescript', name: 'TypeScript' },
+      { id: 'tailwindcss', name: 'TailwindCSS' },
+    ],
+  },
+  {
+    id: 'ycodify', // Unique identifier for translations
     slug: 'sample-project', // Used in the URL
     imageUrl: placeholderImage, // Use imported ImageMetadata
     // projectUrl: '#', // Optional: Link to the live project

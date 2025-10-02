@@ -10,8 +10,38 @@ export type LanguageCode = keyof typeof languages;
 export const ui = {
   br: {
     projectsContent: {
-      sampleProject: {
-        title: 'Exemplo de proeto',
+      comigo: {
+        title: 'Comigo App',
+        description:
+          'Aplicativo mobile de uma empresa de rastreamento veicular',
+        imageAltText: "Image placeholder pour le projet d'exemple",
+        categoryText: 'Aplicativo mobile',
+        dateText: 'Janvier 2025',
+        detailedDescription:
+          "Une description plus détaillée de ce projet d'exemple, montrant comment structurer le contenu pour la page de détail du projet.",
+        keyFeatures: {
+          responsiveDesign: {
+            title: 'Design Adaptatif',
+            description: "Le projet s'adapte à toutes les tailles d'écran.",
+          },
+          contentManagement: {
+            title: 'Gestion de Contenu Facile',
+            description:
+              'Permet une gestion aisée du contenu via des fichiers Markdown ou un CMS.',
+          },
+        },
+        galleryImages: {
+          // sampleGalleryImage1: { // Si tu actives la galerie pour l'exemple
+          //   alt: "Texte alternatif pour l'image de galerie 1",
+          //   caption: "Légende pour l'image de galerie 1",
+          // },
+        },
+        challenges:
+          'Description des défis rencontrés lors de la création de ce projet exemple.',
+        learnings: 'Description des apprentissages tirés de ce projet exemple.',
+      },
+      ycodify: {
+        title: 'Ycodify',
         description: "Ceci est un projet d'exemple pour le template.",
         imageAltText: "Image placeholder pour le projet d'exemple",
         categoryText: 'Application Web',
@@ -86,13 +116,13 @@ export const ui = {
       heroSubtitlePart2: 'Entusiasta de fullstack',
       heroIntroduction: 'Ajouter une introduction ici.',
       heroViewWorkButton: 'Meus projetos',
-      heroContactButton: 'Me contacter',
+      heroContactButton: 'Entre em contato',
       heroImageAlt:
         'Illustration représentant YOUR_NAME ou un concept de développement',
       featuredProjectsTitle: 'Alguns projetos...',
       featuredProjectsDescription:
         'Aqui estão alguns projetos que trabalhei recentemente, sinta-se livre para explorar!',
-      projectCardViewProject: 'Voir le projet',
+      projectCardViewProject: 'Ver o projeto',
       projectCardViewCode: 'Voir le code',
       imageNotAvailable: 'Image bientôt disponible',
       mySkillsTitle: 'Competências e habilidades',
@@ -166,9 +196,9 @@ export const ui = {
       toastErrorValidationFailed: 'Validation du formulaire échouée.',
     },
     projectDetailPage: {
-      backToProjects: 'Retour aux Projets',
-      categoryLabel: 'Catégorie :',
-      dateLabel: 'Date :',
+      backToProjects: 'Retornar aos projetos',
+      categoryLabel: 'Categoria :',
+      dateLabel: 'Data :',
       aboutTitle: 'À propos de ce projet',
       keyFeaturesTitle: 'Fonctionnalités Clés',
       galleryTitle: 'Galerie',
@@ -178,7 +208,7 @@ export const ui = {
       viewCodeButton: 'Voir le Code',
     },
     projectsPage: {
-      title: 'Mes Projets',
+      title: 'Meus projetos',
       metaTitle: 'Mes Projets | Portfolio',
       metaDescription: 'Découvrez tous les projets.',
       noProjects: 'Aucun projet à afficher pour le moment.',
@@ -301,7 +331,7 @@ export const ui = {
       heroContactButton: 'Get In Touch',
       heroImageAlt:
         'Illustration representing YOUR_NAME or a development concept',
-      featuredProjectsTitle: '3 latest projects',
+      featuredProjectsTitle: 'Some projects...',
       featuredProjectsDescription:
         "Here are some of the projects I've recently worked on. Feel free to explore!",
       projectCardViewProject: 'View Project',
